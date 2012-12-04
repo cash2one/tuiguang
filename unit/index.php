@@ -1,0 +1,1 @@
+<meta charset="utf-8"/><?phprequire('../lib/get_baidu.func.php');$arr=get_baidu_right("Ìì½ò¸¾¿Æ");print_r($arr);?>

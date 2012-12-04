@@ -1,0 +1,30 @@
+
+.safe-button{background:url('../img/safe.png');}
+
+h1.logo{font-size:15px; color:#FFFFFF;height:50px;line-height:50px;padding-left:10px;}
+
+.add-button{background:url('../img/add.png');}
+
+.safe-button{background:url('../img/safe.gif');}
+
+.edit-button{background:url('../img/edit.png');}
+
+.delete-button{background:url('../img/delete.png');}
+
+.upload-button{background:url('../img/upload.png');}
+
+.move-button{background:url('../img/move.png');}
+
+.mark-button{background:url('../img/mark.png');}
+
+.tooltip{background:url('../img/tip.png')}
+
+.x-tab button .x-tab-inner {overflow:visible;}
+
+#loading span{position:relative;top:4px;left:3px;}
+
+.action-img{cursor:pointer;margin-left:2px;}
+
+span.green{font-weight:bold;color:green;}
+span.gray{font-weight:bold;color:gray;}
+span.red{font-weight:bold;color:red;}

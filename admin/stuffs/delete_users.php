@@ -1,0 +1,1 @@
+<?php/********************************* 删除用户*********************************/require('../../config.php');require('../../lib/Db.class.php');require('../../lib/Input.class.php');$ids  =Input::itrim($_POST['ids']);$db=new Db();$db->query("DELETE FROM tg_users            WHERE id IN ($ids)");echo "删除成功";?>

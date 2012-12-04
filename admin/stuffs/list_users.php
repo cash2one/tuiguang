@@ -1,0 +1,1 @@
+<?php/********************************* 获取企业用户列表*********************************/require('../../config.php');require('../../lib/Stuff.class.php');require('../../lib/Input.class.php');$stuff_id=Input::itrim($_GET['stuff_id']);$stuff=new Stuff($stuff_id);$data['total']=$stuff->getUsersNum();$data['root'] =$stuff->getUsers();echo json_encode($data);?>
